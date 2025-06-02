@@ -1,12 +1,12 @@
 # 🎯 Valorant Triggerbot
 
-A high-performance triggerbot built in C for maximum speed and precision. Designed for users who value direct control, clean code, and reliable execution.
-
----
-
 <p align="center">
   <img src="https://media.tenor.com/vPvvrLpzjAUAAAAC/please-i-want-to-to-play-league-downstairs-so-bad.gif" width="400" alt="league gif" />
 </p>
+
+A high-performance triggerbot built in C for maximum speed and precision. Designed for users who value direct control, clean code, and reliable execution.
+
+---
 
 ---
 
