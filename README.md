@@ -1,32 +1,37 @@
-Valorant Triggerbot
+# 🎯 Valorant Triggerbot
 
-  
+A high-performance triggerbot built in C for maximum speed and precision. Designed for users who value direct control, clean code, and reliable execution.
 
+---
 
+<div align="center">
+  <img src="https://media.tenor.com/vPvvrLpzjAUAAAAC/please-i-want-to-to-play-league-downstairs-so-bad.gif" width="400" />
+</div>
 
-  A guide to compiling your Valorant Triggerbot project written in C.
+---
 
+## 📌 Project Overview
 
+This triggerbot operates by scanning specific screen pixels in real time and simulating mouse input the moment a target is detected. It’s written in **pure C** to achieve **minimal latency** and **maximum efficiency**, with direct calls to the Windows API for low-level access.
 
-🚀 How to Use
-Follow these steps to compile the source code into an executable file (triggerbot.exe).
-Prerequisites
+---
 
-GCC Compiler: Download and install the GCC compiler for Windows (64-bit) from the official SourceForge page:
-👉 [Download GCC](https://sourceforge.net/projects/gcc-win64/)
+## 🖥️ Requirements
 
-Compilation Instructions
-To compile the source code into an executable, open a terminal in the project directory and run the following command:
+To build and run this project, you’ll need:
+
+- **GCC (MinGW-w64)** – 64-bit version for Windows  
+  👉 [Download from SourceForge](https://sourceforge.net/projects/mingw-w64/)
+
+- Basic familiarity with compiling C code in the terminal
+
+---
+
+## ⚙️ How to Build
+
+1. Download and install [MinGW-w64](https://sourceforge.net/projects/mingw-w64/)
+2. Open a terminal in the project folder (where `main.c` and `helper.c` are located)
+3. Run the following command:
+
+```bash
 gcc main.c helper.c -o triggerbot.exe -lgdi32 -luser32
-
-This command links the main.c and helper.c files and generates the triggerbot.exe executable, using the gdi32 and user32 libraries.
-
-💻 Built With
-This project is proudly written in C:
-
-  
-
-
-
-⚠️ Disclaimer
-Use this project at your own risk! Ensure you understand the code and its implications before running the compiled executable. Be aware that using triggerbots or similar tools in online games like Valorant may violate game terms of service and result in penalties.
