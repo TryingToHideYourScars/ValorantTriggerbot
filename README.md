@@ -1,7 +1,7 @@
 # 🎯 Valorant Triggerbot
 
-<p align="center">
-  <img src="https://tenor.com/view/jumping-jett-jett-valorant-zero-two-jumping-zero-two-jett-gif-23804847" />
+<p align="center">"
+  <img src="https://c.tenor.com/T-WPIxw94EgAAAAd/tenor.gif" />
 </p>
 
 A high-performance triggerbot built in C for maximum speed and precision. Designed for users who value direct control, clean code, and reliable execution.
