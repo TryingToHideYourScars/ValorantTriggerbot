@@ -1,0 +1,1 @@
+gcc main.c helper.c -o spotify.exe -lgdi32 -luser32
